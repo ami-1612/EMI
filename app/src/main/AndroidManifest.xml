@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rwn.emi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/emi"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/emi"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EMI">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
